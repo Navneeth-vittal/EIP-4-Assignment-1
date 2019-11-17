@@ -20,3 +20,6 @@ Receptive Field-refers to the part of the image that is visible to one filter or
 Two types:
 Local receptive field-The region in the input image that is visible to only that filter or kernel.
 Globle receptive field-The regions visible to the final feature map of an input image after a series of convolutions.
+
+score = model.evaluate(X_test, Y_test, verbose=0)
+print(score)=[0.03231280661729433, 0.9912]
